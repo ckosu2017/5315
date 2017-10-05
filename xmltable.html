@@ -18,12 +18,10 @@
             success: function(xml) {  
              $(xml).find('CD').each(function(){  
               t.row.add( [
-                $(this).find('ARTIST').text(),
-                $(this).find('TITLE').text(),
-                $(this).find('YEAR').text(),
-                $(this).find('PRICE').text(),
-                $(this).find('COMPANY').text(),
-                $(this).find('COUNTRY').text()
+                $(this).find('NAME').text(),
+                $(this).find('POPULATION').text(),
+                $(this).find('MAIN BRANCH').text(),
+                $(this).find('ENDOWMENT').text(),
               ] ).draw( false );
              });
             }
@@ -36,23 +34,19 @@
   <table id="chart" class="display" cellspacing="0" width="100%">
     <thead>
         <tr>
-            <th>Artist</th>
-            <th>Title</th>
-            <th>Year</th>
-            <th>Price</th>
-            <th>Company</th>
-            <th>Country</th>
+            <th>Name</th>
+            <th>Population</th>
+            <th>Main Branch</th>
+            <th>Endowment</th>
         </tr>
     </thead>
 
     <tfoot>
         <tr>
-            <th>Artist</th>
-            <th>Title</th>
-            <th>Year</th>
-            <th>Price</th>
-            <th>Company</th>
-            <th>Country</th>
+            <th>Name</th>
+            <th>Population</th>
+            <th>Main Branch</th>
+            <th>Endowment</th>
         </tr>
     </tfoot>
   </table>
