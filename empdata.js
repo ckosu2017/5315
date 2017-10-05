@@ -4,19 +4,19 @@
       "barcode": "3001",
       "name": "Fuji Apples",
       "unit": "case",
-      "price": "$50.00",
+      "price": "$50.00"
     },
     {
       "barcode": "3002",
       "name": "Bananas",
       "unit": "pound",
-      "price": "$1.25",
+      "price": "$1.25"
     },
     {
       "barcode": "3003",
       "name": "Naval Oranges",
       "unit": "bag",
-      "price": "$5.99",
+      "price": "$5.99"
     },
     {
       "barcode": "3004",
@@ -35,6 +35,6 @@
       "name": "Pineapple",
       "unit": "each",
       "price": "$4.50"
-    },
+    }
   ]
 }
