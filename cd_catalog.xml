@@ -24,5 +24,17 @@
 		<MAINBRANCH>Cheney</MAINBRANCH>
 		<ENDOWMENT>$52.2 million</ENDOWMENT>
 	</CD>
+	<CD>
+		<NAME>Central Washington University</NAME>
+		<POPULATION>10,798</POPULATION>
+		<MAINBRANCH>Ellensburg</MAINBRANCH>
+		<ENDOWMENT>$13.3 million</ENDOWMENT>
+	</CD>
+	<CD>
+		<NAME>Evergreen State College</NAME>
+		<POPULATION>4,509</POPULATION>
+		<MAINBRANCH>Olympia</MAINBRANCH>
+		<ENDOWMENT>$8.9 million</ENDOWMENT>
+	</CD>
 	
 </CATALOG>
